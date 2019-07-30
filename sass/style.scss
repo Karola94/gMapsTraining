@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    .container {
+        align-self: center;
+        width: 80%;
+
+        h3 {
+            align-self: center; 
+        }
+        #map {
+            height: 50vh;             
+            background-color: grey; 
+            align-self: center;
+        }
+    }    
+}
